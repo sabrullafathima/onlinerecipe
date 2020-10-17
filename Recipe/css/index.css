@@ -1,0 +1,163 @@
+/*----start set body-------*/
+	body{
+		margin:0;
+		padding:0;
+
+
+	}
+/*------end set body------*/
+
+
+
+/*----start header-------*/
+	/*------start menu----- */
+		#menu{
+			z-index:99;
+		}
+		.NavBarLeft{
+			float: left;	
+		}
+		.NavBarRight{
+			float: right;
+			margin-right: 150px;
+		}
+		ul{
+			list-style: none;
+			margin-left:10px;
+		}
+		li{
+			float: left;
+			padding: 10px;
+		}
+		a{
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 16px;
+			color: white;
+			cursor: pointer;
+			height: 20px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		a.active{
+			font-size: 40px;
+			color: #f0932b;
+		}
+		a:hover{
+			color: #f6e58d;
+		}
+	/*------end menu----- */
+/*----end header-------*/
+
+/*----start scrllback-------*/
+.parallal1, .parallal2, .parallal3, .parallal4, .parallal5, .parallal6{
+  background-image: url("../images/scrlimg9.jpg");
+  /* -----Set a specific height -----*/
+  min-height: 480px; 
+
+  /* ----Create the parallax scrolling effect---- */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+}
+.parallal2{background-image: url("../images/scrlimg7.jpg");}
+.parallal3{background-image: url("../images/scrlimg3.jpg");}
+.parallal4{background-image: url("../images/scrlimg6.jpg");}
+.parallal5{background-image: url("../images/scrlimg10.jpg");}
+.parallal6{background-image: url("../images/scrlimg11.jpg");}
+/*----end scrllback-------*/
+
+/*-----start content----*/
+		#homecontent{
+			
+		}
+		.fresh{
+			margin-right: 150px;
+		}
+		.recipe_container{	
+			background-color: black;
+			padding:30px;
+			width: 100%;
+		}
+		.recipe{
+			width: 100%;
+		}
+		td a:hover{
+			color: blue;
+			text-decoration: underline;
+		}
+		h2:hover{
+			color: red;
+			text-decoration: underline;
+		}
+/*-----end content------*/
+
+/*-----star star color animation------*/
+.fa-sparkles{
+	color: goldenrod;
+}
+#star1 {
+  color: goldenrod;
+  animation: starmove1 3s infinite;
+}
+
+@keyframes starmove1 {
+  50% {color: black;}
+}
+#star2 {
+  color: black;
+  animation: starmove2 3s infinite;
+}
+
+@keyframes starmove2 {
+  50% {color: goldenrod;}
+}
+/*-----end star color animation------*/
+
+
+/*-----start footer----*/
+	#footer{
+		color: black;
+		height: 170px;
+		clear: both;
+		background-color: white;
+	}
+	.socialmedia{
+		color: black;
+		font-size: 30px;
+		text-align:center;
+	}
+	.socialmedia a{
+		padding: 7px;
+		color: black;
+	}
+	.socialmedia a:hover{
+		color: #ff793f;
+	}
+	#footer p{
+		color: gray;
+		font-weight: bold;
+		font-size: 20px;
+		text-align:center;
+	}
+/*-----endfooter------*/
+
+
+.coupon {
+  border: 5px dotted #bbb;
+  width: 80%;
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 220px;
+  max-height: 230px;
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: black;
+}
+
+.checked {
+  color: orange;
+}

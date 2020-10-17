@@ -1,0 +1,154 @@
+
+/* .... background of forms......*/
+body{
+	margin:0;
+	padding: 0;
+	background: url(../images/body_bg.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	background-size: cover;	
+	 
+}
+
+
+/* .... serprofile......*/
+.userprofile i{
+	font-size: 50px;
+	background: #0a3d62;
+	width: 80px;
+	height: 80px;
+	margin-bottom: 35px;
+	line-height: 80px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	color:#95afc0;
+}
+
+
+/*....h1.......*/
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 60px;
+	color: white;
+	margin-top: 0px;
+	user-select: none;
+	clear: both;
+}
+
+
+/*....h2.......*/
+h2{
+	color: white;
+	letter-spacing: 5px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+p{
+	font-weight: bold;
+	color: red;
+}
+
+/* ....icon......*/
+i{
+	font-size: 25px;
+	color: white;
+}
+
+
+/* ....start input box......*/
+input{
+	border:none;
+	outline: none;
+	background: none;
+	width: 100%;
+	padding: 0 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #F8EFBA;
+}
+input::placeholder{
+	color: #718093;
+}
+/* ....end input box......*/
+
+
+/* ....log abd reg submit button......*/
+button{
+	width: 100%;
+	background:none;
+	border:2px solid white;
+	padding:8px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family:arial;
+	letter-spacing: 5px;
+	color: black;
+}
+button:hover{
+	background: rgba(0,0,0,0.8);
+	transition: 0.5s;
+	cursor: pointer;
+}
+/* ....end button......*/
+
+
+/*..lable.............*/
+label{
+	color: white;
+	font-weight: bold;
+}
+
+/* ....start link.....*/
+.link{
+	display: flex;
+	justify-content: space-between;
+}
+.link a{
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+	font-size: 16px;
+}
+.link a:hover{
+	text-decoration: underline;
+}
+/* ....end link......*/
+
+
+/* ....Form body......*/
+.form_body{
+	top:50%;
+	left:50%;
+	margin-top: 60px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	background: rgba(0,0,0,0.5);
+	box-shadow: 0 0 10px 5px black;
+	height: auto;
+	width: 270px;
+	padding: 15px;
+	user-select: none;
+}
+
+
+/* ....logbox......*/
+.logbox,.regbox{
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 0;
+	margin-bottom: 15px;
+	border-bottom: 2px solid white;
+}
+
+img{
+	
+}

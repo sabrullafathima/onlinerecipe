@@ -1,0 +1,215 @@
+		i{
+			color: black;
+			cursor: pointer;
+		}
+		i:hover{
+			color: purple;
+		}
+		#overlay{
+			width: 100%;
+			height: 100%;
+			z-index: 2;
+			cursor: pointer;
+			background-color: rgba(0,0,0,0.2);
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			position: fixed;
+			display: none;
+		}
+		#categorybox{
+			border: 2px solid black;
+			font-size: 15px;
+			color: purple;
+			position: absolute;
+			margin-left: 45%;
+			margin-top: 30%;
+			width: 240px;
+			 height: 310px;
+			background-color: white;
+			transform: translate(-50%,-50%);
+			overflow: auto;
+
+		}
+		#catboxwrap{
+			border-bottom: 1px solid black;
+			margin:10px;
+		}
+		#catboxhead{
+			margin:0px;
+			padding: 0px;
+		}
+
+/* ----list category------ */
+ul, #parentul {
+  list-style-type: none;
+}
+#parentul {
+  margin: 0;
+  padding: 0;
+  display:block;
+}
+.parentli::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+}
+.parentli {
+  cursor: pointer;
+  width: 100%;
+  margin: 0;
+}
+.parentli-down::before {
+  transform: rotate(90deg);  
+}
+
+.childul {
+  display:none;
+  padding-left: 0px;
+  width: 100%;
+
+}
+.childli{
+	list-style: none;
+	color: black;
+}
+
+.active {
+  display: block;
+   width: 100%;
+   padding-left: 0px;
+   margin: 0;
+}
+		.hidemsg{
+			display: none;
+			background-color: black;
+			color: white;
+		}
+		.fa-info-circle:hover + .hidemsg{
+			display: block;
+		}
+		#content{
+			width:100%; 
+			background-color:#e0dede;
+			height: auto;
+			padding-top: 0px;
+			color: #7c3c21;
+			user-select: none;
+		}
+		h1{
+			background-color: white; 
+			margin-top: 0; 
+			padding-left: 20%;
+			padding-bottom: 10px;
+			padding-top: 10px;
+		}
+		form.addrecipe{
+			width: 40%;
+			margin-left: 20%
+		}
+		.inputwrap{
+			width: 600px;
+			height:40px;
+		}
+		input.addrecipe{
+			font-size: 14px;
+			width:450px;
+			height: 30px;
+			background-color: white;
+			border-radius: 10px;
+			border-color: white;
+		}
+		hr{
+			width:450px;
+			color: 2px solid red;
+		}
+		h2{
+			font-size: 18px;
+			color: black;
+		}
+		.camera{
+			width: 200px;
+			height: 200px;
+			cursor: pointer;
+			border:1px solid black;
+			text-align: center;
+			float: left;
+		 	background: white;
+		 	margin-top: 30px;
+		}
+		img{
+			width: 20%;
+			height: 20%;
+			padding-top: 30%
+		}
+		.choocefile{
+			background-color: #2fc4b2;
+			cursor: pointer;
+			height: 10px;
+			width: 182px;
+			padding: 10px;
+			margin-bottom: 0px;
+			margin-top: 34%;
+		}
+		input.choocefile{
+			font-size: 14px;
+			width:120px;
+			height:20px;
+			background-color: white;
+			border-radius: 10px;
+			border-color: white;
+		}
+		h3{
+			font-size: 10px;
+			color: gray;
+			padding-left: 40px;
+			margin-top: 30px;
+		}
+		input.time{
+			width: 40px;
+			height: 30px;
+			text-align: center;
+			background-color: white;
+			margin-left: 40px;
+		}
+		select.time{
+			width: 100px;
+			height: 40px;
+			background-color: white;
+			margin-left: 20px;
+			cursor: pointer;
+			color: brown;
+		}
+		h2{
+			clear: both;
+			padding-top: 30px;
+		}
+		textarea{
+			font-size: 14px;
+			width:450px;
+			height: 130px;
+			background-color: white;
+			border-radius: 10px;
+			border-color: white; 
+		}
+		p{
+			color: black;
+			margin:0px;
+			font-size: 13px;
+		}
+		button.save{
+			width: 250px;
+			background-color: #2fc4b2;
+			height: 40px;
+			padding: 10px;
+			font-size: 20px;
+			font-weight: bold;
+			color: white;
+			margin-top: 20px;
+			margin-bottom: 40px;
+			cursor: pointer;
+		}
+		input[type=radio]{
+			cursor: pointer;
+		}

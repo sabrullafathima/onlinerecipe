@@ -1,0 +1,33 @@
+
+/*----start details page-------*/
+#content{
+	padding-top: 25vh;
+}
+/*----end details page-------*/
+
+
+.search{
+	clear: both;
+	text-align: center;
+	background-image: url(../images/back1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.restpassword{
+	clear: both;
+}
+
+.recipe{
+	clear: both;
+}
+
+.scrollbox{
+	border-radius: 10px;
+	border: 1px solid black;
+	float: right;
+	margin-top:250px;
+	z-index: 3;
+	clear: left;
+}

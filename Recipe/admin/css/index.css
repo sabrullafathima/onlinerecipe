@@ -1,0 +1,106 @@
+
+body {
+	margin-top: 49px;
+	padding: 0;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: white;
+	user-select: none;
+}
+
+/* ----Header ------*/
+#header {
+	width: 860px;
+	height: 52px;
+	margin: 0 auto;
+}
+
+/* ------Menu----- */
+#menu {
+	float: left;
+	width: 860px;
+	height: 54px;
+}
+#menu ul {
+	margin: 0;
+	padding: 0px 0 0 20px;
+	list-style: none;
+	line-height: normal;
+}
+#menu li {
+	display: block;
+	float: left;
+}
+#menu a {
+	display: block;
+	float: left;
+	margin-right: 3px;
+	padding: 12px 20px;
+	letter-spacing: -.5px;
+	text-decoration: none;
+	font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #cf7500;
+	font-size: 20px;
+	font-weight: bold;
+}
+#menu a:hover { 
+	text-decoration:none; 
+	color:#77efe5;
+}
+a.active{
+	color: white;
+}
+
+/*--------- LOGO ---------*/
+#logo {
+	width: 820px;
+	height: 200px;
+	margin: 0 auto;	
+}
+#logo h1{
+	float: left;
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: normal;
+	padding-top: 95px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:36px;
+	font-style: italic;
+	color: #aacdbe;
+}
+
+/* -------Page------- */
+#page {
+	width: 850px;
+	margin: 0 auto;
+}
+/*------- Content----- */
+#content {
+	float: left;
+	width: 825px;	
+	margin-left:80px;
+}
+h1 {
+	font-weight: normal;
+	color: black;
+	text-align:center;
+	letter-spacing: -1px;
+	font-size: 32px;
+}
+
+/*----- footer------- */
+#footer {
+	margin: 0 auto;
+	height: 64px;
+	min-height: 64px;
+	padding: 0;
+}
+#footer p {
+	clear: both;
+	padding-top:10px;
+	text-align: center;
+	color: #fff;
+}
